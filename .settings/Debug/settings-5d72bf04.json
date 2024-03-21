@@ -1,0 +1,9 @@
+{
+  "UiPath.MobileAutomation.Activities.Generic.DelayAfter": "0.01",
+  "UiPath.MobileAutomation.Activities.Generic.DelayBefore": "0.01",
+  "UiPath.MobileAutomation.Activities.Generic.Timeout": "10",
+  "UiPath.MobileAutomation.Activities.Generic.MirroringEnabled": "True",
+  "UiPath.MobileAutomation.Activities.CvScope.Server": "https://cv.uipath.com",
+  "UiPath.MobileAutomation.Activities.CvScope.ApiKey": "41CSY4Kg0A/oorW7/n1a9iB8A9fKHvG5rh86/mZ2LCfJucif/PR95d+DE/2QmAX6ydnBv9yNeNVcBr7sLZJvNg==",
+  "UiPath.MobileAutomation.Activities.CvScope.UseLocalServer": "False"
+}

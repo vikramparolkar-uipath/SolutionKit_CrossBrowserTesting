@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Privacy Policy Modal",
+  "Type": "Element",
+  "TaxonomyType": "ModalWindow",
+  "Id": "woOjJGukrkag_pXGSylxlA",
+  "Reference": "5xIHU6HJF0eB_Q-_H3Z_kA/woOjJGukrkag_pXGSylxlA",
+  "ParentRef": "5xIHU6HJF0eB_Q-_H3Z_kA/y86ZlKWsjkSkiXZNENawWQ",
+  "Created": "2024-03-21T02:12:14.2514767Z",
+  "Updated": "2024-03-21T02:12:14.2514767Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

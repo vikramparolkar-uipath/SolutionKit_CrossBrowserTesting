@@ -1,0 +1,7 @@
+﻿OS,Device Name,Platform Version,Browser,Loan Email,Loan Amount,Loan Term,Loan Income,Loan Age,Loan Grant,Loan Rate
+Windows,N/A,N/A,chrome.exe,uipath@gmail.com,120000,5,30000,35,No,
+Windows,N/A,N/A,firefox.exe,uipath@gmail.com,15000,10,30000,35,Yes,6
+Windows,N/A,N/A,msedge.exe,uipath@gmail.com,4000,3,30000,35,Yes,9
+Windows,N/A,N/A,chrome.exe,uipath@gmail.com,7500,5,30000,65,Yes,7
+iOS,iPhone 15 Pro,17,Safari,user@gmail.com,10000,1,120000,26,Yes,5
+Android,Samsung Galaxy S7 WQHD GoogleAPI Emulator,8.1,Chrome,user@gmail.com,10000,1,120000,26,Yes,5

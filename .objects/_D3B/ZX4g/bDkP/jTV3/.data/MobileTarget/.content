@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="dwLugUfoC0-gawISkwTG7g" DesignTimeRectangle="35, 504, 289, 37" FriendlyName="Set Text - Email Address" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='email' aaname='' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='email' aaname='' /&gt;" Occurence="0" Reference="r7AtWiYseEmBlxN_hEjMFQ/kvq_ky8L8k6eypk7F8ql3w" SearchSteps="Selector, FuzzySelector" Text="" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0XZ-EuiFdLEGX4mu2Xy5M8w</imageRef>
+</Target>

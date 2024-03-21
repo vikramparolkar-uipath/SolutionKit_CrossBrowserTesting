@@ -1,0 +1,124 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Samsung Galaxy S7 WQHD GoogleAPI Emulator",
+      "Description": null,
+      "Url": "https://smes:dcd37053-f1e4-4253-b454-ce4f7b55d8bf@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "8.1",
+      "DeviceName": "Samsung Galaxy S7 WQHD GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    },
+    {
+      "Name": "iPhone 15 Pro",
+      "Description": null,
+      "Url": "https://smes:dcd37053-f1e4-4253-b454-ce4f7b55d8bf@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "17",
+      "DeviceName": "iPhone 15 Pro",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0",
+        "sauce:options": "{\"appiumVersion\":\"2.0.0\"}"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "TheApp",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "recreateChromeDriverSessions": "true",
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk",
+            "appPackage": "io.cloudgrey.the_app"
+          },
+          "StartPage": null
+        }
+      }
+    },
+    {
+      "$id": "2",
+      "Name": "UiBank (Safari)",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "iOS": {
+          "Capabilities": {
+            "browserName": "Safari"
+          },
+          "StartPage": "https://uibank.uipath.com/"
+        }
+      }
+    },
+    {
+      "$id": "3",
+      "Name": "UiBank (Chrome)",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserName": "Chrome"
+          },
+          "StartPage": "https://uibank.uipath.com/"
+        }
+      }
+    },
+    {
+      "$id": "4",
+      "Name": "UiPath Website",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "iOS": {
+          "Capabilities": {
+            "browserName": "Safari"
+          },
+          "StartPage": "https://www.uipath.com/"
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {},
+  "HttpHeaders": {}
+}

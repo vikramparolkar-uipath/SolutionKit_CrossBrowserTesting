@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Loan Approval Message",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "BKd5a9lPxUCCDeZ3OmgHdg",
+  "Reference": "5xIHU6HJF0eB_Q-_H3Z_kA/BKd5a9lPxUCCDeZ3OmgHdg",
+  "ParentRef": "5xIHU6HJF0eB_Q-_H3Z_kA/_sqYcXFbaEqtaAyseZM25g",
+  "Created": "2024-03-21T02:16:42.8815265Z",
+  "Updated": "2024-03-21T02:16:42.8815265Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,161 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Flowchart" VisualBasic.Settings="{x:Null}" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Flowchart_TaskCapture_for_TestCase:_TC_UiBankWeb_Standard_Loan" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <x:Double x:Key="Width">227</x:Double>
+        <x:Double x:Key="Height">266</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID1</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">35,120</av:Point>
+          <av:Size x:Key="ShapeSize">262,46</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank - Apply for Loan" ScopeGuid="b8c5d000-19b7-4ab5-a008-ec96cf5f090b">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="UiBank - Apply for Loan" sap2010:WorkflowViewState.IdRef="Sequence_0">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl aria-role='button' tag='A'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl aria-role='button' tag='A'/&gt;" Guid="f5880d84-230b-43d9-9f07-b36f3e1c9aee" InformativeScreenshot="771ce4d342db4bb7b45a6710106b65b4.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl aaname='Loans' tag='A'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl aaname='Loans' tag='A'/&gt;" Guid="e74c4230-42cc-47d6-b3c4-83e6bd8c88f5" InformativeScreenshot="c639222ab608417cab95440ec0992f5f.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="2cb91073-78bc-4e01-b4d6-6a18cd7a3430" InformativeScreenshot="a6d29c8b8a4e4606a158d88bade28895.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="SingleLine" Text="****@*******.***">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="****@*******.***" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='INPUT'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='INPUT'/&gt;" Guid="7d9ead19-c022-4e53-a276-8adbb8479ae1" InformativeScreenshot="1a8493c4cf39403f9002d4fc29a8b0d1.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="SingleLine" Text="9999">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="9999" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='INPUT' type='number'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='INPUT' type='number'/&gt;" Guid="89928613-4ef4-4397-9b55-082c44d3e342" InformativeScreenshot="45217d48cc564c26b6f34b5cf9060104.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='SELECT'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='SELECT'/&gt;" Guid="47d465cf-cc8e-49bf-b9ac-3cc482c1b1a9" InformativeScreenshot="411cafa1f01a4f93a104882e28a02651.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' idx='*'/&gt;&lt;uia automationid='income' name='Current Yearly Income (Before Taxes)' role='spinner'/&gt;" FuzzySelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' idx='*'/&gt;&lt;uia automationid='income' name='Current Yearly Income (Before Taxes)' role='spinner'/&gt;" Guid="c032af53-cb40-4b30-987a-c7ecc0485f46" InformativeScreenshot="a5d05ab1bb144f3a8e950c1eeb9345e3.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" Text="99999">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="99999" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl id='income' tag='INPUT' type='number'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl id='income' tag='INPUT' type='number'/&gt;" Guid="971c224a-454a-444d-ba2d-3a4f9f1126c7" InformativeScreenshot="534d0b67fd484b488fa26fcab8282c2f.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" Text="99">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="99" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl id='age' tag='INPUT' type='number'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl id='age' tag='INPUT' type='number'/&gt;" Guid="4a492a57-3397-4dd0-8a14-2e1559ec9624" InformativeScreenshot="fad358ace4334771aa5fb66039f118be.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="95b80096-9b6f-4b64-b78b-f077faf39ce6" InformativeScreenshot="dddeacdf639340f3a816ed325e429bc9.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='H4'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank'/&gt;&lt;webctrl tag='H4'/&gt;" Guid="68e082f2-720f-4fc0-a859-9ecc19236f99" InformativeScreenshot="d9d9816aab164bd58ce85c7d27c9d287.png" SearchSteps="Selector, FuzzySelector" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank'/&gt;" Url="https://uibank.uipath.com/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">2,218</av:Point>
+              <av:Size x:Key="ShapeSize">192,48</av:Size>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Verify Loan Application" sap2010:WorkflowViewState.IdRef="Sequence_1" />
+        </FlowStep>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+  </Flowchart>
+</Activity>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="WTJMYp8KkECZQgobHs1aPw" DesignTimeRectangle="207, 129, 177, 49" FriendlyName="Tap" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Apply For A Loan' check:aaname='Apply For A Loan' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Apply For A Loan' check:aaname='Apply For A Loan' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" Text="Apply For A Loan" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0oyuqCe2CEkOGKQoq5eR9nQ</imageRef>
+</Target>

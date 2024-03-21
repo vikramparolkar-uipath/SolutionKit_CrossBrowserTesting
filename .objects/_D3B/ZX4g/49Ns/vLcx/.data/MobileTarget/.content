@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="iTXoIpm7A0aKPWEer6Pzcw" DesignTimeRectangle="35, 214, 289, 57" FriendlyName="Get Text - Loan ID" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='loanID' tag='H4' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='loanID' tag='H4' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='loanID' tag='H4' type='' aaname=' 62156d93c380ad006e3029d6 ' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='loanID' tag='H4' type='' aaname=' 62156d93c380ad006e3029d6 ' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector" Text="62156d93c380ad006e3029d6" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">027hpyXv_zU-ByXfb3JcMjg</imageRef>
+</Target>

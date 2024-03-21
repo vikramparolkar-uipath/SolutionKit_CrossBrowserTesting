@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="XWEtu1tBjE6aaZ8NDA-WMw" DesignTimeRectangle="35, 174, 289, 37" FriendlyName="Set Text - Loan Amount" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='number' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='number' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='number' aaname='' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='INPUT' type='number' aaname='' /&gt;" Occurence="0" Reference="r7AtWiYseEmBlxN_hEjMFQ/p9ZWz90z40eVNRWeJhPSbw" SearchSteps="Selector, FuzzySelector, Image" Text="" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0sjSZR2YCtUu3GFHrBTMq1g</imageRef>
+</Target>

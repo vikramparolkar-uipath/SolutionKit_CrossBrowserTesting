@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="XMb4RjnaQU-G_-aoZI82yw" DesignTimeRectangle="388, 103, 103, 39" FriendlyName="Tap" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl aria-role='button' tag='A' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl aria-role='button' tag='A' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl aria-role='button' tag='A' type='' aaname=' Products ' check:aaname=' Products ' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl aria-role='button' tag='A' type='' aaname=' Products ' check:aaname=' Products ' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" Text="Products" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0_3aYwEkt1ES2JSvofD_AiQ</imageRef>
+</Target>

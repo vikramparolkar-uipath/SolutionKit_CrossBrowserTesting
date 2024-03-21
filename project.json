@@ -1,0 +1,162 @@
+{
+  "name": "SolutionKit_CrossBrowserTesting",
+  "projectId": "85dddb27-75c0-4082-9e4c-66c8bdb876dd",
+  "description": "Test Automation Project for UiBank Web that demonstrates cross-browser testing. Built in a Windows project.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
+    "UiPath.MobileAutomation.Activities": "[23.10.3]",
+    "UiPath.System.Activities": "[23.10.5]",
+    "UiPath.Testing.Activities": "[23.12.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "AutomationCoE",
+      "namespace": "SolutionKit_CrossBrowserTesting",
+      "uniqueReference": "pNqDe/ucgoXnuHup7kebJs1rALjZhejmY9Lc84SJIJQ="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.164697274",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "TestCase1.xaml",
+        "Headless Browser.xaml",
+        "Libraries/Apply for Loan - Headless.xaml",
+        "Libraries/Apply for Loan - Opera.xaml",
+        "Libraries/Apply for Loan - Brave.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "23895483-07af-4e13-b88f-564c581e089a",
+        "dataVariationFilePath": ".variations\\TestData_LoanInformation_Test Data.json",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Feature_DataDrivenLoan_Excel.xaml"
+      },
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\ExecutionTemplate_UiBank_Login_Logout_Chrome.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "79dd5524-b168-47d6-9c42-899216713fe2",
+        "dataVariationFilePath": ".variations\\UiBank Loan Test Data Queue_First Two.json",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Feature_DataDrivenLoan_TestDataQueues.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "41593eb4-88a1-4ff2-91d3-865c7f079ded",
+        "dataVariationFilePath": ".variations\\UiBankLoanData_Windows OS Loan Grant.json",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Feature_DataDrivenLoan_DataService.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fce44aaa-ed54-44e6-bf88-c23bd2487f43",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_HighVolumeLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a5008bc5-0cb9-4fd0-b55d-7192a6bf6809",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_LongTermLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f38960c3-bf3e-40d1-8e75-def110bc0f65",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_MidTermLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6ab894e5-a6e2-46da-9dcf-9e66f0eb6ec8",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Mobile_Android_Chrome.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "06c969e7-ce97-46af-b44e-fc84bfb76221",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Mobile_iOS_Safari.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9b7ba191-29cd-440a-af00-441b903b9a99",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_OldAgeLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fe01b0e0-5a6f-4a45-89f9-fccf360799c7",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_ShortTermLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a512c96c-a41b-4f76-80ce-dc2c240193eb",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_StandardLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "db88f6f0-23fb-4caa-b0eb-fbfcc6623ee0",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_YoungAgeLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e07d3e80-56c7-42fc-a5ab-85487f315136",
+        "executionTemplatePath": ".templates\\ExecutionTemplate_UiBank_Login_Logout_Chrome.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\TC_UiBankWeb_Feature_ExecutionTemplate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a98678f8-12f4-4309-8f8a-a5fda5d4edf7",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\TC_UiBankWeb_Feature_ClassicActivities.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

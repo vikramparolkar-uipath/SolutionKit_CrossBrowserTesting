@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Loans Screen",
+  "Type": "Screen",
+  "Id": "KlREg85AxUuNkAVIbOixPw",
+  "Reference": "5xIHU6HJF0eB_Q-_H3Z_kA/KlREg85AxUuNkAVIbOixPw",
+  "ParentRef": "5xIHU6HJF0eB_Q-_H3Z_kA/ZX4gjaPQLk266C6PQjRI4Q",
+  "Created": "2024-03-21T02:07:15.6663903Z",
+  "Updated": "2024-03-21T02:07:15.6663903Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

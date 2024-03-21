@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="a6ZTKoLrrk-3-Ke2EW2C7w" DesignTimeRectangle="35, 457, 289, 37" FriendlyName="Set Text - Age" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='age' tag='INPUT' type='number' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='age' tag='INPUT' type='number' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='age' tag='INPUT' type='number' aaname='Age' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='age' tag='INPUT' type='number' aaname='Age' /&gt;" Occurence="0" Reference="r7AtWiYseEmBlxN_hEjMFQ/mnneAUxb3U6cwjXxD6uzOA" SearchSteps="Selector, FuzzySelector, Image" Text="" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0XNCa8XH060WER0Ibqgtxmg</imageRef>
+</Target>

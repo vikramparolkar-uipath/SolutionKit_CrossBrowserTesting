@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="WNnF4-IpVUCZXTD9NW5Kzw" DesignTimeRectangle="163, 177, 15, 34" FriendlyName="Get Text" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='rateValue' tag='SPAN' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='rateValue' tag='SPAN' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl id='rateValue' tag='SPAN' type='' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl id='rateValue' tag='SPAN' type='' /&gt;" Occurence="0" SearchSteps="Selector, FuzzySelector" Text="5" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:umct="clr-namespace:UiPath.MobileAutomation.Contracts.Target;assembly=UiPath.MobileAutomation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Target.Anchors>
+    <scg:List x:TypeArguments="umct:IBaseTarget" Capacity="1">
+      <BaseTarget Accuracy="0.8" DesignTimeRectangle="34, 180, 344, 28" FullSelector="&lt;html title='UiBank' /&gt;&#xA;&lt;webctrl tag='H4' /&gt;&#xA;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&#xA;&lt;webctrl tag='H4' type='' aaname='% APR ' check:aaname='5% APR ' /&gt;&#xA;" Occurence="0" SearchSteps="Selector, FuzzySelector, Image" Text="5% APR">
+        <imageRef attrName="ImageBase64" xmlns="">1bU6uz_eOaEiBrklgWolf7w</imageRef>
+      </BaseTarget>
+    </scg:List>
+  </Target.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0paIzmqrS0E29SzmZjlmXQw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2db2690d473d734aed6141f45b7c7e9d.png" xmlns="">09pueeNKhTUS2B6NRKmPoHg</imageRef>
+</Target>

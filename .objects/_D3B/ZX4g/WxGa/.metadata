@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Welcome Screen",
+  "Type": "Screen",
+  "Id": "WxGakL_DREqOGmKK7lz3Mw",
+  "Reference": "5xIHU6HJF0eB_Q-_H3Z_kA/WxGakL_DREqOGmKK7lz3Mw",
+  "ParentRef": "5xIHU6HJF0eB_Q-_H3Z_kA/ZX4gjaPQLk266C6PQjRI4Q",
+  "Created": "2024-03-21T02:04:55.7859883Z",
+  "Updated": "2024-03-21T02:05:30.3615847Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

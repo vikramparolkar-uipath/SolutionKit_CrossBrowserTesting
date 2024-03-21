@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8jBdHRLzY0CugrDQVN96EA" Reference="onZsbVircEKStCOfXcT3Hw/AYJvEfdwskmdx6BG_kCP-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/result/606f65b70a0e91002d126f49/8/true" DesignTimeRectangle="425, 535, 1070, 28" FriendlyName="'606f65b70a0e91002d126f49'" FullSelectorArgument="&lt;webctrl id='loanID' tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl id='loanID' tag='H4' type='' /&gt;" Guid="8f88f3da-eedf-40f4-99a6-5290dfac9f9f" ScopeSelectorArgument="&lt;html title='UiBank' /&gt;" SearchSteps="FuzzySelector">
+      <imageRef attrName="InformativeScreenshot" originalValue="76c6ccbec79a178fdb67247a0c809235.png" xmlns="">0ypcl1IXS00i-prQaCgckOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

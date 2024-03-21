@@ -1,0 +1,9 @@
+{
+  "Tags": [
+    {
+      "Key": "Cross Browser"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}

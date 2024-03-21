@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target Accuracy="0.8" ContentHash="LlcflD2fTk6gy3JiiHERqw" DesignTimeRectangle="35, 260, 289, 38" FriendlyName="Set Loan Term in Dropdown" FullSelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='SELECT' /&gt;" FullSelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='SELECT' /&gt;" FuzzyAccuracy="0.5" FuzzySelector="&lt;html title='UiBank' /&gt;&lt;webctrl tag='SELECT' type='number' aaname='' /&gt;" FuzzySelectorArgument="&lt;html title='UiBank' /&gt;&lt;webctrl tag='SELECT' type='number' aaname='' /&gt;" Occurence="0" Reference="r7AtWiYseEmBlxN_hEjMFQ/8z1TqIPJSEacZwLnpiSEOg" SearchSteps="Selector, FuzzySelector" Text="" xmlns="clr-namespace:UiPath.MobileAutomation.Models;assembly=UiPath.MobileAutomation">
+  <imageRef attrName="ImageBase64" xmlns="">0CvV9hkUeVESK0wMe0KQBzQ</imageRef>
+</Target>
